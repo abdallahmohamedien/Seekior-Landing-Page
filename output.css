@@ -102,7 +102,7 @@ Reset links to optimize for opt-in styling instead of opt-out.
 
 a {
   color: inherit;
-  text-decoration: inherit;
+  text-decoration: none;
 }
 
 /*
@@ -197,6 +197,8 @@ textarea {
   /* 2 */
   padding: 0;
   /* 3 */
+  width: 50%;
+  border-radius: 15px;
 }
 
 /*
@@ -1040,9 +1042,18 @@ input:checked + .toggle-bg {
 }
 
 .my-8 {
-  margin-top: 2rem;
-  margin-bottom: 2rem;
+  margin-top: 4rem;
+  margin-bottom: 10rem;
 }
+.my-9{
+  margin-top: 8rem;
+  margin-bottom: 8rem;
+}
+.my-10 {
+  margin-top: 16rem;
+  margin-bottom: 10rem;
+}
+
 
 .my-6 {
   margin-top: 1.5rem;
@@ -1057,8 +1068,22 @@ input:checked + .toggle-bg {
   margin-top: 0.5rem;
 }
 
+.mt-8{
+  margin-top: 4.5rem;
+
+}
 .mr-4 {
   margin-right: 1rem;
+}
+.ml-2{
+  margin-left: 2.25rem;
+
+}
+.ml-4{
+  margin-left: 5.25rem;
+}
+.ml-6{
+  margin-left: 8.25rem;
 }
 
 .ml-1 {
@@ -1173,8 +1198,15 @@ input:checked + .toggle-bg {
   height: 2.5rem;
 }
 
+.h-20 {
+  height: 45.5rem;
+}
+
 .h-12 {
   height: 3rem;
+}
+.h-full{
+  height: 60rem;
 }
 
 .w-full {
@@ -1196,15 +1228,23 @@ input:checked + .toggle-bg {
 .w-10 {
   width: 2.5rem;
 }
+.w-12 {
+  width: 450px;
+}
 
 .w-64 {
-  width: 16rem;
+  width: 480;
 }
 
 .w-1\/2 {
-  width: 50%;
+  width:60%;
 }
-
+.w-1\/3{
+  width: 30%;
+}
+.w-3\/4{
+  width: 70%;
+}
 .max-w-screen-xl {
   max-width: 1280px;
 }
@@ -1492,6 +1532,10 @@ input:checked + .toggle-bg {
   background-color: 
   #13BFB3
   ;
+}
+.bg-green-50{
+  background-color: 
+  #84E1D9
 }
 
 .text-green-200{
@@ -1787,7 +1831,7 @@ input:checked + .toggle-bg {
 .shadow-lg {
   --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
   --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 rgb(0, 0, 0)), var(--tw-ring-shadow, 0 0 rgba(219, 17, 17, 0)), var(--tw-shadow);
 }
 
 .outline {
@@ -1852,12 +1896,17 @@ input:checked + .toggle-bg {
   background-color: rgb(108 43 217 / var(--tw-bg-opacity));
 }
 .hover\:bg-green-100:hover{
- background-color: #0cd1c49b;
+ background-color: #0ca69b;
 
 }
 .hover\:text-green-100:hover {
-  color:#0cd1c49b ;
+  color:#0e736c ;
 }
+.hover\:text-green-200:hover {
+  color: 
+   #13BFB3
+   ;
+ }
 
 .hover\:bg-blue-800:hover {
   --tw-bg-opacity: 1;
