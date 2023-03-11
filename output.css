@@ -1069,8 +1069,7 @@ input:checked + .toggle-bg {
 }
 
 .mt-8{
-  margin-top: 4.5rem;
-
+  margin-top: 1.8rem;
 }
 .mt-72{
   margin-top: 20.5rem;
@@ -2246,14 +2245,19 @@ input:checked + .toggle-bg {
     margin-left: 1rem;
   }
   .md\:ml-8 {
-    margin-left: 20rem;
+    margin-left: 10rem;
   }
   .md\:w-20 {
     width: 60rem;
   }
-   .md\:mt-9{
+  .md\:mt-9{
     margin-top: 9rem;
-   }
+  }
+
+  .md\:px-0{
+    padding-left: 0rem;
+    padding-right: 0rem;
+  }
 
   .md\:h-12 {
     height: 3rem;
@@ -2266,6 +2270,10 @@ input:checked + .toggle-bg {
   .md\:mt-12 {
     margin-top: 21.12rem;
   } 
+
+  .md\:ml-4 {
+    margin-left: 5rem;
+  }
 
   .md\:w-12 {
     width: 25rem;
